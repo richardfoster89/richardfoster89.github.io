@@ -10,12 +10,11 @@ body {
 table {
     border: 1px solid black;
     text-align: center;
-    font-weight: 500;
     border-collapse: collapse;
 }
 
 table caption {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.5em;
 }
 
 .topRow td {
@@ -135,4 +134,15 @@ td:hover {
 .noEffect {
     background-color: black;
     color: white;
+}
+
+@media (max-width: 500px) {
+    td {
+        border: 1px solid black;
+        height: 1.3rem;
+    }
+
+    .type {
+        letter-spacing: 0.05rem;
+    }
 }
