@@ -137,12 +137,7 @@ td:hover {
 }
 
 @media (max-width: 500px) {
-    td {
-        border: 1px solid black;
-        height: 1.3rem;
-    }
-
-    .type {
-        letter-spacing: 0.05rem;
+    body {
+        font-size: 0.75rem;
     }
 }
