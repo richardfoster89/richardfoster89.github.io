@@ -1,0 +1,134 @@
+html,
+body {
+    font-size: 100%;
+}
+
+table {
+    border: 1px solid black;
+    text-align: center;
+    font-weight: 500;
+    border-collapse: collapse;
+}
+
+table caption {
+    margin-bottom: 0.5rem;
+}
+
+td {
+    border: 1px solid black;
+    width: 25px;
+    height: 21px;
+    padding: 0.1rem;
+}
+
+td:hover {
+    background-color: rgb(255, 187, 0);
+    color: black;
+}
+
+.type {
+    width: 100px;
+    letter-spacing: 0.1rem;
+}
+
+.tNormal {
+    background-color: grey;
+}
+
+.tFire {
+    background-color: red;
+    color: white;
+}
+
+.tWater {
+    background-color: blue;
+    color: white;
+}
+
+.tGrass {
+    background-color: green;
+    color: white;
+}
+
+.tElectric {
+    background-color: yellow;
+}
+
+.tIce {
+    background-color: paleturquoise;
+}
+
+.tFighting {
+    background-color: orange;
+}
+
+.tPoison {
+    background-color: purple;
+    color: white;
+}
+
+.topRow td {
+    height: 100px;
+    writing-mode: vertical-lr;
+    text-orientation: sideways-right;
+}
+
+.tGround {
+    background-color: brown;
+    color: white;
+}
+
+.tFlying {
+    background-color: lightblue;
+}
+
+.tPsychic {
+    background-color: lightpink;
+}
+
+.tBug {
+    background-color: lightgreen;
+}
+
+.tRock {
+    background-color: burlywood;
+}
+
+.tGhost {
+    background-color: darkmagenta;
+    color: white;
+}
+
+.tDragon {
+    background-color: royalblue;
+}
+
+.tDark {
+    background-color: black;
+    color: white;
+}
+
+.tSteel {
+    background-color: darkslategray;
+    color: white;
+}
+
+.tFairy {
+    background-color: fuchsia;
+    color: white;
+}
+
+.sEffective {
+    background-color: green;
+    color: white;
+}
+
+.nvEffective {
+    background-color: red;
+    color: white;
+}
+
+.noEffect {
+    background-color: black;
+    color: white;
+}
