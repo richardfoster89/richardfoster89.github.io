@@ -35,6 +35,14 @@ td:hover {
     color: black;
 }
 
+#invisiTest {
+    color: white;
+}
+
+#invisiTest:hover {
+    color:  rgb(255, 187, 0);
+}
+
 .type {
     width: 15%;
     letter-spacing: 0.05rem;
@@ -134,10 +142,4 @@ td:hover {
 .noEffect {
     background-color: black;
     color: white;
-}
-
-@media (max-width: 500px) {
-    body {
-        font-size: 0.75rem;
-    }
 }
