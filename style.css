@@ -144,9 +144,9 @@ td:hover {
     color: white;
 }
 
-@media (max-width: 500px) {
-    typeTable {
-        width: 400px;
+@media (max-width: 600px) {
+    .typeTable {
+        width: 475px;
         overflow-x: scroll;
     }
 }
