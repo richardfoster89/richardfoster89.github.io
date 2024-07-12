@@ -145,6 +145,10 @@ td:hover {
 }
 
 @media (max-width: 600px) {
+    td {
+        font-size: 0.8em;
+    }
+    
     .typeTable {
         width: 475px;
         overflow-x: scroll;
